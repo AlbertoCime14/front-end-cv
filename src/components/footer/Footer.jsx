@@ -10,12 +10,12 @@ const Footer = () => {
                         <div className="footer-nav">
                             <nav role="navigation">
                                 <ul className="nav justify-content-center">
-                                    <li className="nav-item"><a className="nav-link" href="https://www.linkedin.com/in/alberto-orlando-cime-castellanos-4405b6225/" title="Linkedin"><i
+                                    <li className="nav-item"><a className="nav-link" href="https://www.linkedin.com/in/alberto-orlando-cime-castellanos-4405b6225/" target="__blank" title="Linkedin"><i
                                         className="fab fa-linkedin"></i><span className="menu-title sr-only">Linkedin</span></a>
                                     </li>
                                     
                                    
-                                    <li className="nav-item"><a className="nav-link" href="https://github.com/mercedes06" title="Github"><i
+                                    <li className="nav-item"><a className="nav-link" href="https://github.com/mercedes06" target="__blank" title="Github"><i
                                         className="fab fa-github"></i><span className="menu-title sr-only">Github</span></a>
                                     </li>
                                 </ul>
