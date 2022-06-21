@@ -26,16 +26,24 @@ const Container = () => {
 
         <div className="page-content">
             <div className="container">
-                <Intro username={dataCV.name} />
+                <Intro 
+                    username={dataCV.name} 
+                />
                 <About
                     summary={dataCV.summary} 
                     contact={dataCV.contact} 
                 />
                 <Experience
                     experiences={dataCV.experience} />
-                <SoftSkills />
-                <HardSkills />
-                <Languajes />
+                <SoftSkills 
+                    softskills={dataCV.soft_skills}
+                />
+                <HardSkills 
+                    hardskills={dataCV.hards_skills}
+                />
+                <Languajes
+                    languajes = {dataCV.languajes}
+                />
                 <Awards 
                     awards={dataCV.awards}
                 />
